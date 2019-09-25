@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    /*sets all the margin properties*/
+    padding: 0;
+    /*used to generate space around content*/
+    overflow: hidden;
+    /*whether to clip content or to add scrollbars */
+    
+    top: 0.5em;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar {
+	width: 300px;
+	height: 300px;
+	left: 300px;
+	bottom: -100px;
+	position: absolute;
+	background-color: #F0F1F1;
+}
